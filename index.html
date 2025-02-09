@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Travel Assistant</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>SOLO SAFE</h1>
+        <p>Anytime, Anywhere On Your Command</p>
+    </header>
+
+    <nav>
+        <button onclick="showFeature('safety')">🆘 Safety</button>
+        <button onclick="showFeature('travel')">🌍 Travel</button>
+        <button onclick="showFeature('community')">📖 Community</button>
+        
+            <button onclick="location.href='profile.html'">👤 My Profile</button>
+        
+        
+        <a href="blog.html" class="btn">📖 Blog</a>
+
+<style>
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #cfc016;
+        color: rgb(12, 12, 12);
+        text-decoration:none;
+        border-radius: 5px;
+        font-family: cursive;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+    </nav>
+
+    <section id="safety">
+        <h2>🆘 Safety Features</h2>
+        <button id="sos-btn">🚨 SOS Emergency</button>
+        <p>🔍 Nearest Police Station: <span id="police-info"></span></p>
+        <button onclick="shareLocation()">📍 Share Location</button>
+        <button onclick="findNearestPoliceStation()">🚔 Find Nearest Police Station</button>
+    </section>
+
+    <section id="travel">
+        <h2>🌍 Travel Features</h2>
+        <button onclick="findSafeHotels()">🏨 Find Women-Friendly Hotels</button>
+        <input type="text" id="destination" placeholder="Enter Destination">
+        <button onclick="showSafeRoute()">🛣️ Get Safe Route</button>
+    </section>
+
+    <section id="community">
+        <h2>📖 Community & Blog</h2>
+        <button onclick="location.href='blog.html'">📝 View Travel Blog</button>
+        <button onclick="connectTravelers()">🤝 Find Like-Minded Travelers</button>
+    </section>
+    <section id="trusted-contacts">
+        <h2>👥 Trusted Contacts</h2>
+        <input type="text" id="searchContacts" placeholder="Search for contacts..." oninput="searchContacts()">
+        <button onclick="showContacts()">🔍 View Trusted Contacts</button>
+
+        
+        <h3>Search Results</h3>
+        <ul id="searchResults">
+            
+        </ul>
+    
+        <h3>Your Trusted Contacts</h3>
+        <ul id="contactsList">
+            
+        </ul>
+    </section>
+    
+
+  
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

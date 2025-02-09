@@ -1,0 +1,14 @@
+{
+    "author1": {
+        "name": "Jane Doe",
+        "bio": "Traveler, explorer, and foodie. Loves discovering new cultures.",
+        "profilePic": "author1.jpg",
+        "posts": ["Exploring Tokyo Alone", "A Dream Trip to Venice"]
+    },
+    "author2": {
+        "name": "John Smith",
+        "bio": "Backpacker, nature lover, and adventure seeker.",
+        "profilePic": "author2.jpg",
+        "posts": ["Backpacking Across India"]
+    }
+}

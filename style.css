@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #6f0407;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #efe4e4;
+    color: rgb(164, 9, 9);
+    padding: 20px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav button {
+    font-family: cursive;
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f40b;
+    color: rgb(18, 16, 16);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #d1d60a;
+}
+
+section {
+    color: beige;
+    display: block;  
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #cb410a;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b7f0c5;
+    color: rgb(190, 201, 31);
+}
+
+/* Profile box styling */
+#profile-box {
+    background-color: white;
+    color: black;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-content {
+    padding: 10px;
+}
+
+h3, h4 {
+    margin-bottom: 10px;
+}
+
+#user-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#user-bio {
+    font-style: italic;
+}
+
+#user-interests {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#user-interests li {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Post styling */
+.post {
+    background: white;
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.comment-box, .rating {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+select.rating {
+    font-size: 16px;
+    padding: 5px;
+}
+
+.comment-box {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.submit-comment, .submit-rating {
+    background-color: #2281d4;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.submit-comment:hover, .submit-rating:hover {
+    background-color: #0e369a;
+}
+
+.comments-section {
+    margin-top: 10px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
